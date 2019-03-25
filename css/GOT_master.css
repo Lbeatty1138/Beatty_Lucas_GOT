@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 /* ----- custom font ----- */
-@font-face {
+@font-face 
+{
     font-family: 'GOT_font';
     src: url('Game_of_Thrones.ttf') format('truetype');
     font-weight: normal;
@@ -10,25 +11,29 @@
 /* ----- end custom font ----- */
 
 /* ----- default styles ----- */
-body { background-image:url(../images/grungeBG.jpg);
+body 
+{ background-image:url(../images/grungeBG.jpg);
 	background-repeat:no-repeat; background-position:center center;
 	background-color:#000000; font-size:16px; }
 
-h1 {
+h1 
+{
 	font-family: 'GOT_font';
 	color:white;
 	margin-top:30px;
 	font-size:1.25em;
 }
 
-main {
+main 
+{
 	position:relative;
 	width:100%;
 	text-align:center;
 	top:30px;
 }
 
-#imageContainer {
+#imageContainer
+{
 	width:600px;
 	height:360px;
 	background-color:grey;
@@ -41,7 +46,8 @@ main {
 
 #bottomNav { margin-top:30px; }
 
-#navList li {
+#navList li 
+{
 	display:inline;
 	list-style-type:none;
 	padding:0px 10px;
@@ -51,7 +57,8 @@ main {
 /* ----- end default styles ----- */
 
 /* ----- image sprite ----- */
-.sigil-container {
+.sigil-container 
+{
 	width:51px;
 	height:54px;
 	display:inline-block;
@@ -84,13 +91,15 @@ main {
 
 /* ----- classes for transitions ----- */
 
-.scaleUp {
+.scaleUp 
+{
 	-moz-transform:scale(1.7, 1.7);
 	-webkit-transform:scale(1.7, 1.7);
 	transform:scale(1.7, 1.7);
 }
 
-.scaleHalfUp {
+.scaleHalfUp 
+{
 	-moz-transform:scale(1.2, 1.2);
 	-webkit-transform:scale(1.2, 1.2);
 	transform:scale(1.2, 1.2);
@@ -121,7 +130,9 @@ main {
 	cursor: pointer;
 	font-size: 2em;
 }
-video {
+
+video 
+{
 	width: 80%;
 	margin-top: 10%;
 	border: thin solid #949393;
